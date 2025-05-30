@@ -30,7 +30,7 @@ jobs:
 
     steps:
     - name: SSH into EC2 and Deploy Frontend
-      uses: appleboy/ssh-action@v0.1.9skill-
+      uses: appleboy/ssh-action@v0.1.9
       with:
         host: ${{ secrets.EC2_HOST }}
         username: ${{ secrets.EC2_USER }}

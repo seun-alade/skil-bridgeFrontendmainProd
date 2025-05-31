@@ -1,8 +1,6 @@
   cd skil-bridgeFrontendmainProd/
   touch Dockerfile
   touch .env
-  cd Newskillbackend_Production/Backend/ 
-  cd skil-bridgeFrontendmainProd/
   mkdir nginx
   cd nginx/
   touch nginx.conf
